@@ -43,7 +43,7 @@
                                          <td>{{$blog->author_name}}</td>
                                          <td>{{$blog->title}}</td>
                                          <td>{{$blog->slug}}</td>
-                                         <td>{{$blog->description}}</td>
+                                         <td>{{substr($blog->description,0,50)}}</td>
                                          <td><img src="{{asset($blog->image)}}" alt="" height="50px" width="50px"> </td>
                                          <td>{{$blog->date}}</td>
                                          <td>{{$blog->blog_type}}</td>

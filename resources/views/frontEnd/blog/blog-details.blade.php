@@ -12,7 +12,7 @@
                     <div class="single-post">
                         <div class="post-meta"><span class="date">{{$blog->cat_name}}</span> <span class="mx-1">&bullet;</span> <span>{{$blog->date}}</span></div>
                         <h1 class="mb-5">{{$blog->title}}</h1>
-                        <p><span class="firstcharacter">{{substr($blog->description,0,1)}}</span>{{substr($blog->description,1,12)}}</p>
+                        <p><span class="firstcharacter">{{substr($blog->description,0,1)}}</span>{{substr($blog->description,1,200)}}</p>
 
                         <div class="my-4">
                             <img src="{{asset($blog->image)}}" alt="" class="w-75 img-fluid">

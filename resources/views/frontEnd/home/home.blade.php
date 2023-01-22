@@ -92,7 +92,9 @@ Home
                                 </a>
                                 <div class="post-meta"><span class="date">{{$blog->cat_name}}</span> <span class="mx-1">&bullet;</span> <span>{{$blog->date}}</span></div>
                                 <h2><a href="{{route('blog',['slug'=>$blog->slug])}}">{{$blog->title}}</a></h2>
+                                <hr>
                             </div>
+
                             @endforeach
 
                         </div>

@@ -24,7 +24,7 @@ class ZenBlogController extends Controller
             ->where('blogs.status',1)
             ->where('blog_type','popular')
             ->orderby('id','desc')
-            ->skip(1)
+//            ->skip(1)
             ->take(3)
             ->get()
         ]);
